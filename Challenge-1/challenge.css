@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  margin: 2rem;
+}
+
+
+.column{
+  padding: 2rem;
+  border: 2px solid black;
+
+}
+.flow-content{
+  width: 100%;
+}
