@@ -1,0 +1,28 @@
+
+
+
+.flex{
+display: flex;
+padding: 2em;
+border: 5px solid #aaa;
+flex-direction: column;
+width: 70%;
+max-width: 60rem;
+}
+.flex:nth-child(1){
+  background: yellowgreen;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 700px){
+  .flex{
+    flex-direction: row;
+  }
+  .flex:nth-child(2){
+    background: pink;
+    flex-direction: row-reverse;
+  }
+  .flex:nth-child(1){
+    flex-direction: row;
+  }
+}
